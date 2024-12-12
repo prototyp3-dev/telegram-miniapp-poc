@@ -6,11 +6,11 @@
   "homepage": "https://telegram-mini-apps.github.io/reactjs-template",
   "scripts": {
     "deploy": "gh-pages -d dist",
-    "dev": "vite --port 443",
+    "dev": "vite --host 0.0.0.0 --port 8080",
     "build": "tsc --noEmit && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
-    "preview": "vite preview --port 443",
+    "preview": "vite preview --host 0.0.0.0 --port 8080",
     "predeploy": "npm run build"
   },
   "dependencies": {
