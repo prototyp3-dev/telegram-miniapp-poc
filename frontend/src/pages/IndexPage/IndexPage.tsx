@@ -10,6 +10,12 @@ export const IndexPage: FC = () => {
   return (
     <Page back={false}>
       <List>
+        <Section>
+          <iframe src="https://app.rives.io/tapes/41f40b5eb8f341f40b5eb8f3cfee7c08a98f4b5604136a67192f277f948ad595" width="100%" height="1080px" />
+        </Section>
+        <section>
+        <iframe id="mainCartridgeFrame" src="https://emulator.rives.io/#simple=true&amp;autoplay=true&amp;cartridge=https://raw.githubusercontent.com/edubart/cartridges/main/freedoom.sqfs&amp;tape=https://raw.githubusercontent.com/edubart/cartridges/main/tapes/freedoom-30min.rivtape&amp;now=1734102341901" scrolling="no" allowfullscreen=""></iframe>
+        </section>
         <Section
           header="Features"
           footer="You can use these pages to learn more about features, provided by Telegram Mini Apps and other useful projects"
